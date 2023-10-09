@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
 body {
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
 }
 
 ::selection {
@@ -18,7 +21,7 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header {
+.site-header {
   text-align: center;
   background-color: bisque;
   padding: 40px 20px;
@@ -28,7 +31,7 @@ h3 {
   content: "🐈‍";
 }
 
-.main {
+.site-main {
   padding: 32px 50px;
   margin: 0 auto;
   max-width: 800px;
@@ -53,4 +56,9 @@ a:active {
 article + article {
   margin-top: 70px;
   border-top: solid blanchedalmond;
+}
+
+.exp-heading,
+.exp-subheading {
+  display: inline-block;
 }
