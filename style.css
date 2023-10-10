@@ -4,6 +4,7 @@
 
 html {
   font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
 
 body {
@@ -24,7 +25,19 @@ h3 {
 .site-header {
   text-align: center;
   background-color: bisque;
-  padding: 40px 20px;
+  padding: 2em;
+}
+
+#title {
+  font-size: 4rem;
+}
+
+#main-heading {
+  font-size: 1em;
+}
+
+#profession {
+  font-size: 0.25em;
 }
 
 #profession::after {
@@ -34,8 +47,8 @@ h3 {
 #hire-aside {
   background-color: orchid;
   border: 2px solid darkviolet;
-  padding: 4px;
-  margin: 10px;
+  padding: 0.25em;
+  margin: 0.5em;
   position: absolute;
   top: 0;
   right: 0;
@@ -43,21 +56,16 @@ h3 {
 
 .article-heading {
   position: relative;
-  left: -40px;
-}
-
-article {
-  padding: 0 20px;
+  left: -2em;
 }
 
 .site-main {
-  padding: 32px 50px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 75ch;
 }
 
 a + a {
-  margin-left: 30px;
+  margin-left: 1rem;
 }
 
 a {
@@ -73,7 +81,7 @@ a:active {
 }
 
 article + article {
-  margin-top: 70px;
+  margin-top: 1rem;
   border-top: solid blanchedalmond;
 }
 
