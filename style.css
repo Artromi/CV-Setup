@@ -164,7 +164,7 @@ footer {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: var(--page-background-color);
-    color: var(--page-text-color);
+    --page-background-color: black;
+    --page-text-color: white;
   }
 }
