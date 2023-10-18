@@ -85,7 +85,8 @@ nav > a:hover {
 }
 
 nav > a:focus {
-  background-color: var(--background-color-one);
+  background-color: var(--background-color-two);
+  border: solid var(--selection-color);
 }
 
 .article-heading {
