@@ -73,6 +73,21 @@ nav {
   align-items: baseline;
 }
 
+nav > a {
+  margin: 2px;
+  text-decoration: none;
+  background-color: var(--background-color-two);
+  transition: background-color 1s;
+}
+
+nav > a:hover {
+  background-color: var(--page-background-color);
+}
+
+nav > a:focus {
+  background-color: var(--background-color-one);
+}
+
 .article-heading {
   position: relative;
   left: -2rem;
