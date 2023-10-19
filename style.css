@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -43,7 +43,7 @@ h3 {
 }
 
 .site-header:hover #badge {
-  transform: translate(-50%, 50%);
+  transform: translate(-100%, 50%);
 }
 
 #title {
@@ -69,7 +69,7 @@ h3 {
   position: absolute;
   top: 2em;
   right: 1em;
-  transition: transform 3s;
+  transition: transform 2s;
 }
 
 nav {
