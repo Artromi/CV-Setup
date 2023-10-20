@@ -181,6 +181,10 @@ footer {
   #badge {
     position: fixed;
   }
+  .main-article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 @media screen and (prefers-color-scheme: dark) {
